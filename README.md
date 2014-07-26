@@ -35,9 +35,18 @@
     #      リスト 3.2 秘密トークンを動的に生成する。
     #      config/initializers/secret_token.rb
   rails generate rspec:install
+  rails g cucumber:install --rspec --capybara
+  bundle exec guard init rspec
+  bundle exec guard init cucumber
+  bundle exec guard init spork
+  bundle exec spork rspec --bootstrap
+  bundle exec spork cucumber --bootstrap
+
   rake spec
+  rake cucumber
   ls coverage/rcov
   emacs .travis.yml
+
 
 //--- End of File ---
 

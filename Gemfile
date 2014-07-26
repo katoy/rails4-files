@@ -44,7 +44,8 @@ group :development, :test do
   gem 'phantomjs'
   gem 'selenium-webdriver'
   gem 'capybara'
-  gem 'database_cleaner'''
+  gem 'database_cleaner'
+  gem 'cucumber-rails'
   gem 'launchy'
   gem 'poltergeist'
   gem 'rspec-rails'
@@ -58,5 +59,17 @@ group :development, :test do
   gem 'simplecov'
   gem 'simplecov-rcov'
   gem 'coveralls'
+
+  gem 'guard-rspec'
+  gem 'guard-cucumber'
+  gem 'guard-spork'
+  gem 'spork-rails'
+  gem 'childprocess'
+
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
+
+  # with 'osx'
+  gem 'growl'
 end
 
