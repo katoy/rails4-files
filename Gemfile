@@ -44,6 +44,7 @@ group :development, :test do
   gem 'phantomjs'
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'database_cleaner'''
   gem 'launchy'
   gem 'poltergeist'
   gem 'rspec-rails'
@@ -53,5 +54,9 @@ group :development, :test do
   gem 'rmagick'
   gem 'rdoc'
   gem 'yard'
+
+  gem 'simplecov'
+  gem 'simplecov-rcov'
+  gem 'coveralls'
 end
 

@@ -1,6 +1,7 @@
 
 [![Build Status](https://travis-ci.org/katoy/rails4-files.png?branch=master)](https://travis-ci.org/katoy/rails4-files)
 [![Dependency Status](https://gemnasium.com/katoy/rails4-files.png)](https://gemnasium.com/katoy/rails4-files)
+[![Coverage Status](https://coveralls.io/repos/katoy/rails4-files/badge.png)](https://coveralls.io/r/katoy/rails4-files)
 
 # Rail3-faile の rails4 での作成し直し。
 
@@ -35,6 +36,7 @@
     #      config/initializers/secret_token.rb
   rails generate rspec:install
   rake spec
+  ls coverage/rcov
   emacs .travis.yml
 
 //--- End of File ---
